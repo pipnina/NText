@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NText Editor</title>
+		<style>
+			html, body
+			{
+				background-color: #101010;
+				padding: 0;
+				margin: 0;
+				height: 100%;
+				width: 100%;
+			}
+			
+			#MenuBar
+			{
+				background-color: #606060;
+				height: 25px;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#MenuBar ul
+			{
+				display: grid;
+				grid-template-columns: 50px 50px 50px;
+				list-style-type: none;
+				overflow: hidden;
+				margin: 0;
+				padding: 0px 2px;
+			}
+			
+			#MenuBar li
+			{
+				padding: 2px 5px;
+				margin: 1px 2px;
+				border: 2px solid #3050C0;
+				border-radius: 5%;
+				font-size: 12px;
+				text-align: center;
+			}
+			
+			#MenuBar li:hover
+			{
+				background-color: #5080F0;
+			}
+			
+			#EditorBlock
+			{
+				display: grid;
+				grid-template-columns: 35px auto;
+				grid-gap: 0px 0px;
+				height: 95%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#InfoColumn
+			{
+				background-color: #3050C0;
+				height: 100%;
+				width: 35px;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#InfoColumn p
+			{
+				line-height: 0.0;
+				text-align: right;
+				margin-right: 2px;
+			}
+			
+			#TextField
+			{
+				background-color: #303030;
+				height: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				line-height: 0.0;
+			}
+			
+			#TextField p
+			{
+				color: #ffffff;
+				margin-left: 4px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="MenuBar">
+			<ul>
+				<li id="File">File</li>
+				<li id="Edit">Edit</li>
+				<li id="View">View</li>
+			</ul>
+		</div>
+		
+		<div id="EditorBlock">
+			<div id="InfoColumn">
+				<p>12</p>
+				<p>128</p>
+				<p>13</p>
+			</div>
+
+			<div id="TextField">
+				<p>#include&lt;iostream&gt;</p>
+				<br />
+				<p>int main(int argc, char*[] argv)</p>
+			</div>
+		</div>
+	</body>
+
+</html>
