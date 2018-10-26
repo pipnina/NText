@@ -1,0 +1,33 @@
+#MenuBar
+{
+	background-color: #606060;
+	height: 25px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#MenuBar ul
+{
+	display: grid;
+	grid-template-columns: 50px 50px 50px;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0px 2px;
+}
+
+#MenuBar li
+{
+	padding: 2px 5px;
+	margin: 1px 2px;
+	border: 2px solid #3050C0;
+	border-radius: 5%;
+	font-size: 12px;
+	text-align: center;
+}
+
+#MenuBar li:hover
+{
+	background-color: #5080F0;
+} 

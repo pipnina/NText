@@ -1,0 +1,59 @@
+#EditorBlock
+{
+	display: grid;
+	grid-template-columns: 35px auto;
+	grid-gap: 0px 0px;
+	height: 95%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Ubuntu Mono", "Courier New", monospace;
+}
+
+#InfoColumn
+{
+	background-color: #3050C0;
+	height: 100%;
+	width: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+#InfoColumn p
+{
+	line-height: 0.0;
+	text-align: right;
+	margin-right: 2px;
+}
+
+#TextField
+{
+	background-color: #303030;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 0.0;
+	letter-spacing: 0px;
+}
+
+#TextField:focus
+{
+	background-color: #222226;
+}
+
+#TextField p
+{
+	color: #ffffff;
+	margin-left: 5px;
+}
+
+#Cursor
+{
+	position: fixed;
+	background-color: #0088ff;
+	width: 1px;
+	height: 22px;
+	left: 39px; /*+8 each character*/
+	top: 30px;	/*+16 each line*/
+}
